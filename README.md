@@ -1,2 +1,3 @@
-# Modalexp
-Using JS - built a basic modal
+# Interactive Resume
+
+Lets stand out from the crowd ^__^
