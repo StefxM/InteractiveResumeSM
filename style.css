@@ -31,7 +31,7 @@ body
 
 .container .left_side {
     position: relative;
-    background: #003147;
+    background: #074c6d;
     padding: 50px;
 }
 
@@ -155,12 +155,60 @@ body
     background: #03a9f4;
 }
 
-.right_side {
+.container .right_side {
     position: relative;
-    background: #fff;
+    background: #f1f8fa;
     padding: 40px;
+   
 }
 
+.about {
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .year_company {
+    min-width: 150px;
+}
+
+.about .box .year_company h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .text h4 {
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 
 /*
