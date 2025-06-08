@@ -9,7 +9,7 @@
 
 body 
 {
-    background-color: lightblue;
+    background-color: rgb(195, 182, 241);
     display: flex;
     justify-content: center;
     align-items:center;
@@ -31,7 +31,7 @@ body
 
 .container .left_side {
     position: relative;
-    background: #074c6d;
+    background: #963fd1;
     padding: 50px;
 }
 
@@ -106,7 +106,7 @@ body
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #03a9f0;
+    color: #032ef0;
 }
 
 .contactInfo ul li span {
@@ -124,7 +124,7 @@ body
 }
 
 .contactInfo.education h5 {
-    color: #03a9f4;
+    color: #7269f0;
     font-weight: 500;
 }
 
@@ -152,7 +152,7 @@ body
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #8700f5;
 }
 
 .container .right_side {
@@ -172,7 +172,7 @@ body
 }
 
 .title2 {
-    color: #003147;
+    color: #2d0047;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -196,7 +196,7 @@ body
 
 .about .box .text h4 {
     text-transform: uppercase;
-    color: #2a7da2;
+    color: #9254af;
     font-size: 16px;
 }
 
